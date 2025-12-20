@@ -25,7 +25,7 @@ const generate = (data) => {
     for(i = 0; i < data.length; i++){
       container.innerHTML += 
       `
-        <a href="" class="product">
+        <a href="description.html" class="product">
           <div >
             <img src=${data[i].image} alt="" />
             <div class="desc">
