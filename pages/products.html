@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/products.css" />
+  </head>
+
+  <body>
+    <div class="first">
+      <div class="options">
+        <a href="">Sign/in</a>
+        <a href="">Create account</a>
+      </div>
+    </div> 
+
+    <nav>
+      <div class="items">
+        <div class="grow">
+          <p><strong class="alone">C</strong></p>
+          <img src="/images/bars-solid-full.svg" alt="" class="menu-icon" style="width: 24px; height: 24px;" onclick="toggleMenu()">
+        </div>
+  
+          <div class="anchors">
+            <div>
+              <a href="index.html">Home</a>
+            </div>
+            <div>
+              <a href="About.html">About</a>
+            </div>
+            <div class="firstA">
+              <a href="products.html" >Products</a>
+            </div>
+            <div>
+              <a href="cart.html" >cart</a>
+            </div>
+          </div>
+  
+  
+          <div class="actions">
+            <img src="/images/24c8079a-db9a-4820-a604-792f41221d7f.svg" alt="" />
+            <img src="/images/3f4e372e-1fb4-49bf-a7a6-66d97b773e0a.svg" class="cart_img" alt="" />
+            <p id="cart"></p>
+          </div>
+
+      </div>
+    </nav>
+
+    <section class="search">
+      <div class="selects">
+        <div class="inputs">
+          <p>Search Product</p>
+          <input type="text" class="Search" onkeyup="Search()" />
+        </div>
+
+        <div class="inputs">
+          <p>Select Category</p>
+          <select name="" id="" class="input" onchange="Categories(data)">
+            <option value="All">All</option>
+            <option value="Tables">Tables</option>
+            <option value="Chairs">Chairs</option>
+            <option value="Lamp">Lamp</option>
+            <option value="Sofas">Sofas</option>
+            <option value="Beds">Beds</option>
+          </select>
+        </div>
+
+        <div class="inputs">
+          <p>Select company</p>
+          <select name="" id="" class="input2" onchange="Company(data)">
+            <option value="All">All</option>
+            <option value="Modenza">Modenza</option>
+            <option value="Luxora">Luxora</option>
+            <option value="Artifex">Artifex</option>
+            <option value="Comfora">Comfora</option>
+            <option value="Homestead">Homestead</option>
+          </select>
+        </div>
+ 
+        <div class="inputs">
+          <p>Sort by</p>
+          <select name="" id="">
+            <option value="a - z">a - z</option>
+            <option value="z - a">z - a</option>
+            <option value="high">high</option>
+            <option value="low">low</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="select2">
+        <div class="free">
+          <input type="radio" name="" id="" />
+          <p>Free Shipping</p>
+        </div>
+
+        <div class="buttons">
+          <button>Search</button>
+          <button id="reset">Reset</button>
+        </div> 
+      </div>
+    </section>
+
+
+
+    <div class="section">
+      <h1>Featured Products</h1>
+
+      <div class="container">
+        <h1 class="searchMessage"></h1>
+      </div>
+    </div>
+
+    <script src="/JS/products.js"></script>
+    <script src="/JS/data.js"></script>
+    <!-- <script src="index.js"></script> -->
+  </body>
+</html>
