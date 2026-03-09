@@ -17,7 +17,7 @@ function toggleMenu(){
     actions.classList.toggle("hide")
 }
 
-
+ 
 const generate = (data) => {
   
   console.log(data)
@@ -25,7 +25,7 @@ const generate = (data) => {
     for(i = 0; i < data.length; i++){
       container.innerHTML += 
       `
-        <a href="description.html" class="product">
+        <a href="description.html?name=${data[i].name}" class="product">
           <div >
             <img src=${data[i].image} alt="" />
             <div class="desc">

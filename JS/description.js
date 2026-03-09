@@ -14,14 +14,14 @@ function toggleMenu(){
 function generateImage(){
   cartImage.innerHTML = `
   <a href="cart.html?category=Lamp" class="pageLink" >
-  <img src="images/3f4e372e-1fb4-49bf-a7a6-66d97b773e0a.svg" alt="" />
+  <img src="/images/3f4e372e-1fb4-49bf-a7a6-66d97b773e0a.svg" alt="" />
   </a>
   `
 }
 
 generateImage()
 
-//remember that this javascript gets the information from the other html page(product.html)
+//his javascript gets the information from the other html page(product.html)
 
 let data = localStorage.getItem('data');
 data = JSON.parse(data)

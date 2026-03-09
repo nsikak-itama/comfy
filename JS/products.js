@@ -22,7 +22,7 @@ let data = localStorage.getItem('data') || [];
 data = JSON.parse(data)
 console.log(data);
 
-const generate = (data) => {
+const generate = (data) => { 
 
   container.innerHTML = "";
 
@@ -40,8 +40,6 @@ const generate = (data) => {
         </a>
     `
   }
-
-
 }
 
 generate(data)

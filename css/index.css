@@ -50,7 +50,6 @@ img{
     display: flex;
     transition: transform 0.4s ease-in-out;
     gap: 1em;
-    border: 2px solid white;
 }
 
 
